@@ -22,7 +22,7 @@ Before usage go to the project directory: ```cd distribution_connector```, insta
 
 # Usage
 
-The code in this repository implements the curve-finding procedure for the various methods for Dense nets and the Ensembling procedure with Weight Adjusment as discribed in the paper.
+The code in this repository implements the curve-finding procedure for the various methods for Dense ReLU nets and VGG16, and the Ensembling procedure with Weight Adjusment as discribed in the paper.
 
 ## Curve Finding
 
@@ -175,7 +175,6 @@ python3 eval_ensemble.py --dir=experiments/eval_ensemble/Linear7NoBias/ --data_p
 ## Other Relevant Papers
  
  * [Surfaces, Mode Connectivity, and Fast Ensembling of DNNs](https://arxiv.org/abs/1802.10026) by Timur Garipov, Pavel Izmailov, Dmitrii Podoprikhin, Dmitry Vetrov and Andrew Gordon Wilson
- * [Using Mode Connectivity for Loss Landscape Analysis](https://arxiv.org/abs/1806.06977) by Akhilesh Gotmare, Nitish Shirish Keskar, Caiming Xiong, Richard Socher
  * [Essentially No Barriers in Neural Network Energy Landscape](https://arxiv.org/abs/1803.00885) by Felix Draxler, Kambis Veschgini, Manfred Salmhofer, Fred A. Hamprecht
  * [Topology and Geometry of Half-Rectified Network Optimization](https://arxiv.org/abs/1611.01540) by C. Daniel Freeman, Joan Bruna
  * [Averaging Weights Leads to Wider Optima and Better Generalization](https://arxiv.org/abs/1803.05407) by Pavel Izmailov, Dmitrii Podoprikhin, Timur Garipov, Dmitry Vetrov, Andrew Gordon Wilson
